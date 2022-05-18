@@ -31,27 +31,27 @@ npx typedoc algofi/index.ts
 ## Examples
 
 ### Add liquidity (mint)
-[mint.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/algofi/examples/mint.ts)
+[mint.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/src/examples/mint.ts)
 
 This example shows how to add liquidity to the platform
 
 ### Burn asset (burn)
-[burn.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/algofi/examples/burn.ts)
+[burn.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/src/examples/burn.ts)
 
 This example shows how to burn bank assets to redeem for underlying liquidity
 
 ### Add collateral (addCollateral)
-[addCollateral.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/algofi/examples/addCollateral.ts)
+[addCollateral.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/src/examples/addCollateral.ts)
 
 This example shows how to add minted bank assets to collateral
 
 ### Add liquidity to collateral (mintToCollateral)
-[mintToCollateral.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/algofi/examples/mintToCollateral.ts)
+[mintToCollateral.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/src/examples/mintToCollateral.ts)
 
 This example shows how to add liquidity to the platform collateral
 
 ### Remove collateral (removeCollateral)
-[removeCollateral.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/algofi/examples/removeCollateral.ts)
+[removeCollateral.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/src/examples/removeCollateral.ts)
 
 This example shows how to remove bank asset collateral from platform
 
@@ -61,12 +61,12 @@ Example coming!
 This example shows how to remove bank asset collateral from platform to underlying asset
 
 ### Borrow (borrow)
-[borrow.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/algofi/examples/borrow.ts)
+[borrow.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/src/examples/borrow.ts)
 
 This example shows how to borrow an underlying asset against provided collateral
 
 ### Repay Borrow (repayBorrow)
-[repayBorrow.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/algofi/examples/repayBorrow.ts)
+[repayBorrow.ts](https://github.com/Algofiorg/algofi-lend-js-sdk/blob/master/src/examples/repayBorrow.ts)
 
 This example shows how to repay borrowed assets
 
