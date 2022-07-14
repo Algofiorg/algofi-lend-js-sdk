@@ -1011,9 +1011,13 @@ export async function newAlgofiTestnetClient(
   let newIndexerClient: Indexer
   if (algodClient === null) {
     newAlgodClient = new Algodv2("", "https://api.testnet.algoexplorer.io", "")
+  } else {
+    newAlgodClient = algodClient;
   }
   if (indexerClient === null) {
     newIndexerClient = new Indexer("", "https://algoindexer.testnet.algoexplorerapi.io/", "")
+  } else {
+    newIndexerClient = indexerClient;
   }
   const client = await Client.init(newAlgodClient, newIndexerClient, historicalIndexerClient, userAddress, "testnet")
   return client
@@ -1039,6 +1043,8 @@ export async function newAlgofiMainnetClient(
   }
   if (indexerClient === null) {
     newIndexerClient = new Indexer("", "https://algoindexer.algoexplorerapi.io", "")
+  } else {
+    newIndexerClient = indexerClient;
   }
   const client = await Client.init(algodClient, newIndexerClient, historicalIndexerClient, userAddress, "mainnet")
   return client
